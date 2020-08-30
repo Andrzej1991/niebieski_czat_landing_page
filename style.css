@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background: url("images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.page-name {
+  left: 0;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.page-name h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.page-name p {
+  margin-top: 8px;
+}
+
+.page-name h2,
+p {
+  color: #ffffff;
+}
+
+.page-navigation {
+  right: 0;
+  margin-right: 50px;
+  margin-top: 15px;
+  position: absolute;
+}
+
+.page-navigation ul li {
+  display: inline;
+}
+
+.page-navigation ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 30px;
+  font-weight: 500;
+}
+
+.page-navigation ul li a .fa-comment-alt {
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.page-navigation ul li a:hover {
+  color: lightblue;
+}
