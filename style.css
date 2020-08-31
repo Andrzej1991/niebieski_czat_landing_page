@@ -117,3 +117,11 @@ p {
   width: 50%;
   padding: 60px;
 }
+
+.two{
+  flex-direction: row-reverse;
+}
+
+.four{
+  flex-direction: row-reverse;
+}
