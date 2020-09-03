@@ -258,6 +258,10 @@ footer a:hover {
   }
 
   @media (max-width: 390px) {
+    .info h1 {
+      font-size: 1.4em;
+    }
+
     .page-name {
       margin-top: 10px;
       margin-left: 20px;
@@ -273,8 +277,12 @@ footer a:hover {
     }
 
     .page-navigation {
-      margin-right: 60px;
-      margin-top: 8px;
+      left: -40px;
+      margin-top: 80px;
+    }
+
+    .page-navigation ul li a {
+      font-size: 1.4em;
     }
   }
 
