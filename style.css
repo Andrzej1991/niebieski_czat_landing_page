@@ -74,7 +74,8 @@ p {
 }
 
 .page-navigation ul li a:hover {
-  color: lightblue;
+  color: #2A97ED;
+  transition: all ease .4s;
 }
 
 .home {
