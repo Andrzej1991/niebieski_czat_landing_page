@@ -78,6 +78,33 @@ p {
   transition: all ease 0.4s;
 }
 
+.header-content {
+  margin-top: 20vh;
+  padding: 30px;
+}
+
+.header-content h5 {
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.header-content ol {
+  margin: 15px 0;
+}
+
+.header-content ol li {
+  color: #ffffff;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.header-content h4 {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
 .home {
   min-height: 100vh;
   width: 100%;
@@ -220,6 +247,10 @@ footer a:hover {
     flex: 0 0 90%;
   }
 
+  .header-content {
+    margin-top: 10vh;
+  }
+
   .form-textarea textarea {
     width: 100%;
     height: 140px;
@@ -250,6 +281,33 @@ footer a:hover {
     padding: 30px;
   }
 
+  .header-content {
+    margin-top: 10vh;
+    padding: 15px;
+  }
+
+  .header-content h5 {
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+
+  .header-content ol {
+    margin: 10px 0;
+  }
+
+  .header-content ol li {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 1em;
+  }
+
+  .header-content h4 {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
   .one,
   .two,
   .three,
@@ -261,6 +319,10 @@ footer a:hover {
   @media (max-width: 390px) {
     .info h1 {
       font-size: 1.4em;
+    }
+
+    .header-content {
+      margin-top: 5vh;
     }
 
     .page-name {
