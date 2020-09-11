@@ -14,6 +14,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
 .container {
@@ -223,7 +224,7 @@ p {
 .content p {
   flex: 0 0 50%;
   width: 50%;
-  padding: 60px;
+  padding: 60px 60px 30px;
   font-size: 1.3em;
   color: #ffffff;
   font-weight: 500;
@@ -366,7 +367,6 @@ footer a:hover {
   .content p {
     flex: 0 0 100%;
     width: 100%;
-    padding: 30px;
   }
 
   .header-content {
@@ -404,13 +404,31 @@ footer a:hover {
     flex-direction: column;
   }
 
+  @media (max-width: 630px) {
+    .header-content {
+      margin-top: -50px;
+      padding: 20px;
+    }
+
+    .page-name {
+      margin-top: 5px;
+      margin-left: 15px;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .page-navigation {
+      margin-right: 60px;
+    }
+  }
+
   @media (max-width: 440px) {
     .info h2 {
       font-size: 1.4em;
     }
 
     .header-content {
-      margin-top: 1vh;
+      margin-top: -60px;
     }
 
     .page-name {
@@ -442,8 +460,8 @@ footer a:hover {
   }
 }
 
-@media (max-width: 560px) {
-  .page-navigation {
-    margin-right: 60px;
+@media (max-width: 400px){
+  .menuToggle{
+    margin-right: -20px;
   }
 }
