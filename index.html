@@ -29,26 +29,19 @@
 </head>
 
 <body>
-    <nav role='navigation'>
+    <nav>
         <div class="menuToggle">
             <input type="checkbox" />
             <span></span>
             <span></span>
             <span></span>
             <ul class="menu">
-                <a href="pages/about.html">
-                    <li>O nas</li>
-                </a>
-                <a href="pages/howtotalk.html">
-                    <li>Jak rozmawiać?</li>
-                </a>
-                <a href="pages/contacts.html">
-                    <li>Przydatne kontakty</li>
-                </a>
+                <li><a href="pages/about.html">O nas</a></li>
+                <li><a href="pages/howtotalk.html">Jak rozmawiać?</a></li>
+                <li><a href="pages/contacts.html">Przydatne kontakty</a></li>
             </ul>
         </div>
     </nav>
-
     <header>
         <div class="container">
             <div class="row">
@@ -77,11 +70,10 @@
             </div>
         </div>
     </header>
-
     <section class="why-we-help">
         <div class="home">
             <div class="info">
-                <h1>Dlaczego chcemy pomóc?</h1>
+                <h2>Dlaczego chcemy pomóc?</h2>
             </div>
             <div class="content one">
                 <img class="img" src="images/2.jpg" alt="najwazniejsza jest miłość">
@@ -149,12 +141,12 @@
                             </label>
                             <label class="form-group">
                                 <input type="text" name="email" class="form-control" required>
-                                <span for="">Podaj mail</span>
+                                <span>Podaj mail</span>
                                 <span class="border"></span>
                             </label>
                             <label class="form-group">
-                                <textarea id="" name="message" class="form-control" required></textarea>
-                                <span for="">Twoja wiadomość</span>
+                                <textarea name="message" class="form-control" required></textarea>
+                                <span>Twoja wiadomość</span>
                                 <span class="border"></span>
                             </label>
                             <button type="submit" name="submit" value="submit">Wyślij
@@ -174,7 +166,7 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript">
+    <script>
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];

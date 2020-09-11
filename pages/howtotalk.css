@@ -189,7 +189,6 @@ footer a:hover {
 }
 
 @media (max-width: 1070px) {
-
   .info {
     margin-top: 30px;
   }
@@ -218,16 +217,16 @@ footer a:hover {
   }
 }
 
-@media (max-width: 900px){
-  header{
+@media (max-width: 900px) {
+  header {
     height: 120vh;
   }
-  
+
   .info {
     margin-top: 20px;
   }
 
-  .info h2{
+  .info h2 {
     font-size: 1.4em;
   }
 
@@ -250,28 +249,26 @@ footer a:hover {
     font-size: 1.2em;
   }
 
-  .content-right p{
+  .content-right p {
     margin-top: 15px;
     font-size: 1.4em;
   }
 
-  .links{
+  .links {
     margin-top: 15px;
   }
 }
 
-
 @media (max-width: 680px) {
-
-  header{
+  header {
     height: 130vh;
   }
-  
+
   .info {
     margin-top: 25px;
   }
 
-  .info h2{
+  .info h2 {
     font-size: 1.3em;
   }
 
@@ -290,14 +287,14 @@ footer a:hover {
     padding: 0;
   }
 
-  .content-right p{
+  .content-right p {
     margin-top: 15px 0;
     font-size: 1.3em;
   }
 }
 
 @media (max-width: 620px) {
-  header{
+  header {
     height: 120vh;
   }
 
@@ -305,12 +302,12 @@ footer a:hover {
     margin: 20px 0;
     padding: 4px;
   }
-  
+
   .info {
     margin-top: 15px;
   }
 
-  .info h2{
+  .info h2 {
     font-size: 1.1em;
   }
 
@@ -327,7 +324,16 @@ footer a:hover {
     padding: 5;
   }
 
-  .content-right p{
+  .content-right p {
     font-size: 1.5em;
   }
+}
+
+@media (max-width: 580px) {
+}
+body{
+  width: 100vw;
+}
+header {
+  height: 150vh;
 }
