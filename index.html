@@ -139,25 +139,25 @@
             <div class="row">
                 <div class="wrapper">
                     <div class="inner">
-                        <form action="">
+                        <form action="submit.php" method="post">
                             <h3>Skontaktuj się z nami!</h3>
                             <p>Potrzebujesz porady? Interesuje Cie współpraca? Odpowiemy na każde pytanie!</p>
                             <label class="form-group">
-                                <input type="text" class="form-control" required>
+                                <input type="text" name="name" class="form-control" required>
                                 <span>Podaj imię</span>
                                 <span class="border"></span>
                             </label>
                             <label class="form-group">
-                                <input type="text" class="form-control" required>
+                                <input type="text" name="email" class="form-control" required>
                                 <span for="">Podaj mail</span>
                                 <span class="border"></span>
                             </label>
                             <label class="form-group">
-                                <textarea name="" id="" class="form-control" required></textarea>
+                                <textarea name="" id="" name="message" class="form-control" required></textarea>
                                 <span for="">Twoja wiadomość</span>
                                 <span class="border"></span>
                             </label>
-                            <button>Wyślij
+                            <button type="submit" name="submit" value="submit">Wyślij
                                 <i class="zmdi zmdi-arrow-right"></i>
                             </button>
                         </form>
