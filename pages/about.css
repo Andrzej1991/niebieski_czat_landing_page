@@ -12,11 +12,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  max-width: 100vw;
-}
-
-.container {
-  margin: auto;
 }
 
 .row {
@@ -25,26 +20,27 @@ body {
 }
 
 header {
-  left: 0px;
-  right: 0px;
   background: url("../images/1.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-h2 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-  font-weight: 600;
+.info {
+  flex: 0 0 100%;
+  display: flex;
+  max-width: 100vw;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: 15px;
+}
+
+.info h2 {
   color: #ffffff;
-  margin-top: 150px;
   text-transform: uppercase;
-  word-spacing: 5px;
+  word-spacing: 4px;
+  font-size: 1.9em;
 }
 
 .page-navigation {
@@ -117,18 +113,9 @@ footer a:hover {
 }
 
 @media (max-width: 1100px) {
-  h2 {
-    margin-top: 50px;
-    margin-left: 350px;
-    font-size: 18px;
-  }
 }
 
 @media (max-width: 780px) {
-  h2 {
-    margin-top: 50px;
-    margin-left: 250px;
-  }
   .page-navigation ul li a {
     font-size: 1.6em;
   }
@@ -138,12 +125,6 @@ footer a:hover {
 }
 
 @media (max-width: 650px) {
-  h2 {
-    margin-top: 50px;
-    margin-left: 200px;
-    font-size: 18px;
-    word-spacing: 1px;
-  }
   .page-navigation {
     margin-left: 10px;
   }
@@ -154,7 +135,6 @@ footer a:hover {
   .column {
     padding: 6px;
     flex: 0 0 50%;
-    margin-left: -80px;
     margin-top: 20%;
   }
 
@@ -172,9 +152,6 @@ footer a:hover {
 }
 
 @media (max-width: 650px) {
-  h2 {
-    margin-left: 150px;
-  }
   .page-navigation {
     margin-left: 0;
   }
@@ -186,9 +163,8 @@ footer a:hover {
 
   .column {
     padding: 6px;
-    flex: 0 0 80%;
+    flex: 0 0 100%;
     flex-direction: row;
-    width: 80%;
     margin-top: 20%;
   }
 }
@@ -199,7 +175,25 @@ footer a:hover {
     font-size: 0.9em;
   }
 
+  .column {
+    flex: 0 0 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
   footer a {
     font-size: 1.1em;
+  }
+}
+
+@media (max-width: 460px) {
+  footer h1 {
+    margin: 20px auto 20px;
+    font-size: 0.8em;
+    padding: 5px;
+  }
+
+  footer a {
+    font-size: 1em;
   }
 }
