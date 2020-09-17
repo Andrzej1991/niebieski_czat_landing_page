@@ -38,8 +38,8 @@ a:hover {
 .menuToggle {
   display: block;
   position: absolute;
-  top: 40px;
-  right: 120px;
+  top: 20px;
+  right: 20px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -152,9 +152,11 @@ p {
 .info {
   flex: 0 0 100%;
   display: flex;
+  max-width: 100vw;
   justify-content: center;
   text-align: center;
-  padding: 5px;
+  padding: 30px;
+  margin-top: 15px;
 }
 
 .info h2 {
@@ -162,8 +164,6 @@ p {
   text-transform: uppercase;
   word-spacing: 4px;
   font-size: 1.9em;
-  text-align: center;
-  margin-top: 60px;
 }
 
 .content {
@@ -198,9 +198,8 @@ p {
   color: #ffffff;
   padding: 5x;
   font-size: 1.4em;
-
   word-spacing: 1px;
-  margin: 3px 0;
+  margin: 4px 0;
 }
 
 .content-left {
@@ -257,35 +256,7 @@ footer a:hover {
   transition: all 0.6s ease;
 }
 
-@media (max-width: 1340px) {
-  .info {
-    margin-top: 10px;
-  }
-
-  .content h3,
-  p {
-    padding: 5px;
-    margin: 5px 0;
-  }
-
-  .content h3 {
-    font-size: 1.8em;
-  }
-
-  .content p {
-    font-size: 1.4em;
-  }
-
-  .content ol li {
-    padding: 4x;
-    font-size: 1.3em;
-  }
-}
-
 @media (max-width: 1070px) {
-  .info {
-    margin-top: 20px;
-  }
 
   .content h3,
   p {
@@ -378,6 +349,11 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .page-name {
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
   .links a {
     font-size: 1.2em;
   }
@@ -390,5 +366,30 @@ footer a:hover {
 
   footer a {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 440px) {
+  .page-name {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  .page-name h2 {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+
+  .page-name p {
+    margin-top: 8px;
+    font-size: 0.9em;
+  }
+  footer h1 {
+    margin: 20px auto 20px;
+    font-size: 0.8em;
+  }
+
+  footer a {
+    font-size: 0.9em;
   }
 }
