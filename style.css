@@ -194,6 +194,22 @@ p {
   background: #000000;
 }
 
+.fb-info{
+  padding: 15px 0;
+  font-size: 1.4em;
+  font-weight: 500;
+  margin: 5px 0;
+  animation: blinker 2s linear infinite;
+  -webkit-animation: blinker 2s linear infinite;
+  -moz-animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.2;
+  }
+}
+
 .info {
   margin: 35px auto;
 }

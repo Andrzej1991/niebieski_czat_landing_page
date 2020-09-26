@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="/site.webmanifest">
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+    <script src="script.js"></script>
     <meta property="og:title"
         content="Postaramy się pomóc z depresją kontaktem oraz przypadnymi informacjami na temat depresji.">
     <meta property="og:site_name" content="niebieskiczat.pl">
@@ -68,6 +72,7 @@
                         <li>Dolegliwości bólowe (głowy, brzucha, w klatce piersiowej, nerwobóle)</li>
                     </ol>
                     <h4>Koniecznie skontaktuj się z nami!</h4>
+                    <p class="fb-info"></p>
                 </div>
             </div>
         </div>
@@ -168,6 +173,8 @@
             </div>
         </div>
     </footer>
+
+
     <script>
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
