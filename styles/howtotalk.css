@@ -98,15 +98,14 @@ p {
 
 .content ol {
   list-style-type: none;
-  padding: 0;
+  padding: 4px 4px;
 }
 
 .content ol li {
   color: #ffffff;
-  padding: 5x;
   font-size: 1.4em;
   word-spacing: 1px;
-  margin: 4px 0;
+  margin: 6px 0;
 }
 
 .content-left {
@@ -180,7 +179,7 @@ footer a:hover {
   }
 
   .content ol li {
-    padding: 3x;
+    padding: 6px;
     font-size: 1.2em;
   }
 }
