@@ -15,7 +15,7 @@ ref.on(
   "value",
   function (snapshot) {
     document.getElementsByClassName("fb-info")[0].innerHTML =
-      "Pomogliśmy już " + snapshot.val() + " osobom.";
+      snapshot.val();
   },
   function (error) {
     console.log("Error: " + error.code);
